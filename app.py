@@ -13,7 +13,7 @@ from analyzer          import (summarize_document, analyze_document_risk,
 st.set_page_config(page_title="Doc Intelligence", layout="wide")
 st.title("Document Intelligence System")
 
-# ── Sidebar ────────────────────────────────────────────────────────
+# ── Sidebar ───────────────────────────────────────────────────────
 with st.sidebar:
     st.header("Upload Document")
     uploaded = st.file_uploader("Choose a PDF", type="pdf")

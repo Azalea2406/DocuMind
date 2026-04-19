@@ -3,7 +3,7 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 
-# ── LLM client — supports both OpenAI and Groq ────────────────────
+# ── LLM client — supports both OpenAI and Groq 
 USE_GROQ = os.getenv("USE_GROQ", "false").lower() == "true"
 
 if USE_GROQ:

@@ -82,3 +82,4 @@ async def search_doc(file_id: str, q: str, top_k: int = 5):
             for c in results
         ]
     }
+    

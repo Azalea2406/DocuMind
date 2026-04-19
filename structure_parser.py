@@ -14,7 +14,7 @@ class Section:
 @dataclass
 class Entity:
     text: str
-    label: str          # PERSON, ORG, DATE, MONEY, GPE, etc.
+    label: str          # PERSON, ORG, DATE, MONEY, GPE, etc. 
     count: int = 1
 
 @dataclass

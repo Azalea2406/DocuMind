@@ -1,4 +1,4 @@
-""" Extraction Module"""
+""" Extraction Module """
 import pdfplumber
 import fitz  # PyMuPDF
 from dataclasses import dataclass

@@ -5,7 +5,7 @@ from collections import defaultdict
 
 nlp = spacy.load("en_core_web_sm")
 
-# ── Data models ────────────────────────────────────────────────────
+# ── Data models ───────────────────────────────────────────────────
 
 @dataclass
 class Entity:

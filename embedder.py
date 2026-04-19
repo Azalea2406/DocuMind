@@ -12,7 +12,7 @@ EMBED_DIM    = 384
 _embed_model = SentenceTransformer("all-MiniLM-L6-v2")
 enc         = tiktoken.get_encoding("cl100k_base")
 
-# ── Data classes (defined BEFORE they are used) ────────────────────
+# ── Data classes (defined BEFORE they are used) ───────────────────
 
 @dataclass
 class Chunk:

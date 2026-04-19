@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+pdfplumber
+pymupdf
+spacy
+faiss-cpu
+openai
+groq
+tiktoken
+numpy
+streamlit
+python-dotenv
+sentence-transformers
